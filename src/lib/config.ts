@@ -2,8 +2,8 @@
 
 export const siteConfig = {
   // Nom de la plateforme
-  nomPlateforme: "Répertoire des Diocèses de France",
-  nomCourt: "Répertoire Diocésain",
+  nomPlateforme: "Catholic World Wide",
+  nomCourt: "CWW",
   // Centre de la carte France
   centreCarte: { lat: 46.6, lng: 2.5 } as const,
   // Zoom par défaut (France entière)
@@ -11,5 +11,5 @@ export const siteConfig = {
   // Couleur primaire (violet liturgique)
   couleurPrimaire: "#6d2077",
   // Footer
-  footerTexte: "Données fictives — POC",
+  footerTexte: "Site en construction",
 };

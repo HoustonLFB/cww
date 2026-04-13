@@ -23,23 +23,17 @@ const personnesToulouse: Personne[] = [
   { id: "tls-p-012", dioceseId: TLS, nom: "Blanc", prenom: "Étienne", role: "doyen", email: "doyen.sud@toulouse.catholique.fr" },
   { id: "tls-p-013", dioceseId: TLS, nom: "Duval", prenom: "Marc", role: "doyen", email: "doyen.comminges@toulouse.catholique.fr" },
   // Curés
-  { id: "tls-p-020", dioceseId: TLS, nom: "Martin", prenom: "François", role: "cure", email: "f.martin@toulouse.catholique.fr", telephone: "05 61 21 38 42" },
   { id: "tls-p-021", dioceseId: TLS, nom: "Roland-Gosselin", prenom: "Paul", role: "doyen" },
 
   // Vicaires
   { id: "tls-p-050", dioceseId: TLS, nom: "Bernard", prenom: "Michel", role: "vicaire" },
-  { id: "tls-p-051", dioceseId: TLS, nom: "Fontaine", prenom: "Raphaël", role: "vicaire" },
-  { id: "tls-p-032", dioceseId: TLS, nom: "Ralaivaonirina", prenom: "Joseph", role: "vicaire" },
+
   // Diacres
   { id: "tls-p-060", dioceseId: TLS, nom: "Desvernois", prenom: "Dominique", role: "diacre", notes: "Diacre permanent" },
-  { id: "tls-p-061", dioceseId: TLS, nom: "Rey", prenom: "Gérard", role: "diacre", notes: "Diacre permanent — Blagnac" },
-  { id: "tls-p-062", dioceseId: TLS, nom: "Cherel", prenom: "Renaud", role: "diacre", notes: "Diacre permanent — Aspet" },
-  { id: "tls-p-063", dioceseId: TLS, nom: "Malet", prenom: "Dominique", role: "diacre", notes: "Diacre permanent — Aspet" },
+
   // Aumôniers / Séminaire
-  { id: "tls-p-070", dioceseId: TLS, nom: "Simon", prenom: "Charles", role: "aumonier", email: "c.simon@toulouse.catholique.fr" },
   { id: "tls-p-071", dioceseId: TLS, nom: "Delmas", prenom: "Benoît", role: "aumonier" },
-  { id: "tls-p-080", dioceseId: TLS, nom: "Laurent", prenom: "Thomas", role: "superieur", email: "seminaire@toulouse.catholique.fr" },
-  { id: "tls-p-081", dioceseId: TLS, nom: "Garcia", prenom: "David", role: "seminariste" },
+  { id: "tls-p-080", dioceseId: TLS, nom: "Parent", prenom: "Philippe", role: "superieur", },
 ];
 
 const paroissesToulouse: Paroisse[] = [

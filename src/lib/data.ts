@@ -682,8 +682,8 @@ const dioceseToulouse: Diocese = {
 const LYN = "lyon";
 
 const personnesLyon: Personne[] = [
-  { id: "lyn-p-001", dioceseId: LYN, nom: "de Germay", prenom: "Olivier", role: "eveque", email: "archevechelyon@lyon.catholique.fr", telephone: "04 78 81 48 48", notes: "Archevêque de Lyon, Primat des Gaules" },
-  { id: "lyn-p-002", dioceseId: LYN, nom: "Percerou", prenom: "Emmanuel", role: "vicaire-general", email: "vicaire.general@lyon.catholique.fr" },
+  { id: "lyn-p-001", dioceseId: LYN, nom: "de Germay", prenom: "Olivier", role: "eveque", notes: "Archevêque de Lyon, Primat des Gaules" },
+  { id: "lyn-p-002", dioceseId: LYN, nom: "Grillon", prenom: "Xavier", role: "vicaire-general" },
   { id: "lyn-p-010", dioceseId: LYN, nom: "Dubois", prenom: "Henri", role: "doyen", email: "doyen.centre@lyon.catholique.fr" },
   { id: "lyn-p-011", dioceseId: LYN, nom: "Mercier", prenom: "Alain", role: "doyen", email: "doyen.ouest@lyon.catholique.fr" },
   { id: "lyn-p-020", dioceseId: LYN, nom: "Berger", prenom: "Jean", role: "cure", email: "j.berger@lyon.catholique.fr", telephone: "04 78 42 08 50" },

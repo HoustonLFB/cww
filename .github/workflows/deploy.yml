@@ -15,7 +15,8 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: "22"
+          port: ${{ secrets.SSH_PORT }}
+          protocol: tcp6
           script: |
             cd ~/cww
             git pull

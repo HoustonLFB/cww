@@ -1,0 +1,24 @@
+diocese:
+  id: lyon
+  slug: lyon
+  nom: Archidiocèse de Lyon
+  eveque: lyn-p-001
+  vicairesGeneraux:
+    - lyn-p-002
+  coordonnees:
+    lat: 45.7640
+    lng: 4.8357
+personnes:
+  - id: lyn-p-001
+    nom: de Germay
+    prenom: Olivier
+    role: eveque
+    notes: Archevêque de Lyon, Primat des Gaules
+  - id: lyn-p-002
+    nom: Grillon
+    prenom: Xavier
+    role: vicaire-general
+paroisses: []
+ensembles: []
+doyennes: []
+lieux: []

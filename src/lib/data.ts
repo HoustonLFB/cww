@@ -658,7 +658,7 @@ const doyennesToulouse: Doyenne[] = [
 ];
 
 const lieuxToulouse: LieuSpecial[] = [
-  { id: "tls-ls-001", dioceseId: TLS, nom: "Séminaire Saint-Cyprien", type: "seminaire", coordonnees: { lat: 43.596543, lng: 1.434676 }, adresse: "9 rue des Teinturiers, 31300 Toulouse", personnes: ["tls-p-080", "tls-p-081"], description: "Séminaire interdiocésain de la province de Toulouse" },
+  { id: "tls-ls-001", dioceseId: TLS, nom: "Séminaire Saint-Cyprien", type: "seminaire", coordonnees: { lat: 43.596543, lng: 1.434676 }, adresse: "9 rue des Teint, 31300 Toulouse", personnes: ["tls-p-080", "tls-p-081"], description: "Séminaire interdiocésain de la province de Toulouse" },
   { id: "tls-ls-002", dioceseId: TLS, nom: "Aumônerie du CHU Purpan", type: "hopital", coordonnees: { lat: 43.6110, lng: 1.4030 }, adresse: "CHU Purpan, 31300 Toulouse", personnes: ["tls-p-070"], description: "Aumônerie catholique du CHU" },
   { id: "tls-ls-003", dioceseId: TLS, nom: "Aumônerie de la Maison d'Arrêt de Seysses", type: "prison", coordonnees: { lat: 43.5500, lng: 1.3120 }, adresse: "Route de Seysses, 31600 Seysses", personnes: ["tls-p-071"] },
   { id: "tls-ls-004", dioceseId: TLS, nom: "Couvent des Dominicains", type: "communaute-religieuse", coordonnees: { lat: 43.567268, lng: 1.462410 }, adresse: "1 Impasse Lacordaire, 31400 Toulouse", personnes: [], description: "Couvent des Frères Prêcheurs — lieu historique de fondation de l'Ordre" },

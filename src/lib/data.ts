@@ -651,18 +651,18 @@ const ensemblesToulouse: EnsembleParoissial[] = [
 ];
 
 const doyennesToulouse: Doyenne[] = [
-  { id: "tls-doy-001", dioceseId: TLS, nom: "Doyenné Toulouse Centre", doyen: "tls-p-010", ensemblesParoissiaux: ["tls-ep-001", "tls-ep-002"], zone: [[43.625, 1.410], [43.625, 1.465], [43.585, 1.465], [43.585, 1.410]], couleur: "#6d2077" },
-  { id: "tls-doy-002", dioceseId: TLS, nom: "Doyenné Toulouse Ouest", doyen: "tls-p-011", ensemblesParoissiaux: ["tls-ep-003", "tls-ep-004"], zone: [[43.710, 1.300], [43.710, 1.420], [43.570, 1.420], [43.570, 1.300]], couleur: "#1565c0" },
-  { id: "tls-doy-003", dioceseId: TLS, nom: "Doyenné du Comminges", doyen: "tls-p-013", ensemblesParoissiaux: ["tls-ep-005"], zone: [[43.100, 0.600], [43.100, 0.800], [42.950, 0.800], [42.950, 0.600]], couleur: "#00695c" },
-  { id: "tls-doy-004", dioceseId: TLS, nom: "Doyenné Toulouse Est & Sud", doyen: "tls-p-012", ensemblesParoissiaux: ["tls-ep-006"], zone: [[43.630, 1.460], [43.630, 1.520], [43.535, 1.520], [43.535, 1.460]], couleur: "#c62828" },
+  { id: "tls-doy-001", dioceseId: TLS, nom: "Doyenné Toulouse Centre", doyen: "tls-p-010", ensemblesParoissiaux: ["tls-ep-001", "tls-ep-002"], zone: [], couleur: "#6d2077" },
+  { id: "tls-doy-002", dioceseId: TLS, nom: "Doyenné Toulouse Ouest", doyen: "tls-p-011", ensemblesParoissiaux: ["tls-ep-003", "tls-ep-004"], zone: [], couleur: "#1565c0" },
+  { id: "tls-doy-003", dioceseId: TLS, nom: "Doyenné du Comminges", doyen: "tls-p-013", ensemblesParoissiaux: ["tls-ep-005"], zone: [], couleur: "#00695c" },
+  { id: "tls-doy-004", dioceseId: TLS, nom: "Doyenné Toulouse Est & Sud", doyen: "tls-p-012", ensemblesParoissiaux: ["tls-ep-006"], zone: [], couleur: "#c62828" },
 ];
 
 const lieuxToulouse: LieuSpecial[] = [
-  { id: "tls-ls-001", dioceseId: TLS, nom: "Séminaire Saint-Cyprien", type: "seminaire", coordonnees: { lat: 43.5940, lng: 1.4270 }, adresse: "75 Rue de la Digue, 31300 Toulouse", personnes: ["tls-p-080", "tls-p-081"], description: "Séminaire interdiocésain de la province de Toulouse" },
+  { id: "tls-ls-001", dioceseId: TLS, nom: "Séminaire Saint-Cyprien", type: "seminaire", coordonnees: { lat: 43.596543, lng: 1.434676 }, adresse: "9 rue des Teinturiers, 31300 Toulouse", personnes: ["tls-p-080", "tls-p-081"], description: "Séminaire interdiocésain de la province de Toulouse" },
   { id: "tls-ls-002", dioceseId: TLS, nom: "Aumônerie du CHU Purpan", type: "hopital", coordonnees: { lat: 43.6110, lng: 1.4030 }, adresse: "CHU Purpan, 31300 Toulouse", personnes: ["tls-p-070"], description: "Aumônerie catholique du CHU" },
   { id: "tls-ls-003", dioceseId: TLS, nom: "Aumônerie de la Maison d'Arrêt de Seysses", type: "prison", coordonnees: { lat: 43.5500, lng: 1.3120 }, adresse: "Route de Seysses, 31600 Seysses", personnes: ["tls-p-071"] },
-  { id: "tls-ls-004", dioceseId: TLS, nom: "Communauté des Dominicains", type: "communaute-religieuse", coordonnees: { lat: 43.5960, lng: 1.4470 }, adresse: "1 Impasse de la Lacydon, 31000 Toulouse", personnes: [], description: "Couvent des Frères Prêcheurs — lieu historique de fondation de l'Ordre" },
-  { id: "tls-ls-005", dioceseId: TLS, nom: "Archevêché de Toulouse", type: "maison-diocesaine", coordonnees: { lat: 43.5968, lng: 1.4495 }, adresse: "24, rue Perchepinte, 31073 Toulouse", telephone: "05 61 52 24 56", email: "accueil@toulouse.catholique.fr", siteWeb: "https://toulouse.catholique.fr", personnes: ["tls-p-001", "tls-p-002", "tls-p-003"], description: "Siège de l'archidiocèse" },
+  { id: "tls-ls-004", dioceseId: TLS, nom: "Couvent des Dominicains", type: "communaute-religieuse", coordonnees: { lat: 43.567268, lng: 1.462410 }, adresse: "1 Impasse Lacordaire, 31400 Toulouse", personnes: [], description: "Couvent des Frères Prêcheurs — lieu historique de fondation de l'Ordre" },
+  { id: "tls-ls-005", dioceseId: TLS, nom: "Archevêché de Toulouse", type: "maison-diocesaine", coordonnees: { lat: 43.597728, lng: 1.448508 }, adresse: "24, rue Perchepinte, 31073 Toulouse", telephone: "05 61 52 24 56", email: "accueil@toulouse.catholique.fr", siteWeb: "https://toulouse.catholique.fr", personnes: ["tls-p-001", "tls-p-002", "tls-p-003"], description: "Siège de l'archidiocèse" },
 ];
 
 const dioceseToulouse: Diocese = {
